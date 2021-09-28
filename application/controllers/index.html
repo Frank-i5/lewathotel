@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>403 Forbidden</title>
+</head>
+<body>
+
+<p>Directory access is forbidden.</p>
+
+</body>
+</html>
+
+
+<?php if ($Allcours['total'] == 0) { ?>
+					<?php $_data['data_err']=0;if((int)$_data['data_err'] == 0){?>
+						<p class="alert-danger" id="pdelete_message_error2" style="padding:10px; font-weight:bold; border-radius:9px; margin-bottom:10px;box-shadow:2px 2px 2px rgba(0,0,0,0.4);">
+							<?php  echo "Pas de cours disponoble pour votre classe !";$_data['data_err'] = -1;?>	
+							<span class="icon-close pull-right" style="cursor:pointer;" id="delete_message_error2"></span>
+							<script type="text/javascript">
+								$(document).ready(function(){
+									$('#delete_message_error2').click(function(){
+										$('#pdelete_message_error2').remove();
+									});
+								});
+							</script>
+						</p>
+					<?php } ?>
+				<?php } ?>

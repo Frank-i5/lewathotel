@@ -1,0 +1,113 @@
+/*.corps{
+	font-family: 'Catamaran', sans-serif;
+	color: white;
+	/*background-color: white;*/
+}*/
+
+
+/*fin entete*/
+
+.form1{
+	margin-top: 75px;
+	/*border:2px solid black;*/
+	background-color:white;
+	/*border-top-left-radius: 50%;*/
+	/*border-bottom-left-radius: 50%;*/
+	height: 600px;
+	opacity: 0.7;
+
+}.formulaire{
+	/*margin-top: 75px;*/
+	/*border:2px solid black;*/
+	background-color:white;
+	/*border-top-left-radius: 50%;*/
+	/*border-bottom-left-radius: 50%;*/
+	/*height: 600px;*/
+	opacity: 0.8;
+}
+
+.form2{
+	margin-top: 50px;
+}
+.form3{
+	margin-top: 50px;
+	/*height: 400px;*/
+}
+.rad{
+	margin-left: 230px!important;
+}
+h3{
+	text-align: center;
+	margin-top: 50px;
+	font-weight: bold;
+}
+.inpt1, .inpt2, .inpt3, .inpt4, .inpt5{
+	border-top:none!important;
+	border-left:none!important;
+	border-right:none!important;
+	background-color:transparent!important;
+	/*border-top: hidden!important;
+
+	border-left: hidden!important;
+
+	border-right: hidden!important; */
+}
+
+.inpt7{
+
+	background-color: transparent;
+}
+.sel1, .sel2{
+	border-top:none!important;
+	border-left:none!important;
+	border-right:none!important;
+	background-color: transparent;
+}
+/* .btn{
+	background:rgb(119 84 201) ;
+	outline: none;
+	border:none;
+	cursor: pointer;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 0 6px ;
+} */
+.btn:active{
+	box-shadow: 0 0 rgb(119 84 201);
+	top:6px;
+}
+
+#im{
+	margin-top: 10px; 
+	margin-bottom: 10px;
+	height: 120px; 
+	width: 120px; 
+	border-radius: 50px;
+}
+
+table{
+	color: black!important;
+}
+@media screen and (max-width: 768px){
+	.form1{
+	margin-top: -40px;
+	
+	height: 1000px!important;
+	opacity: 0.75;
+	}
+.corps{
+	
+	
+	background-repeat: no-repeat;
+	background-size:cover;
+	
+}
+}
+@media screen and (max-width: 1024px){
+	.form1{
+	margin-top: -40px;
+	
+	height: 1000px!important;
+	opacity: 0.75;
+	}
+}

@@ -1,0 +1,104 @@
+.corps{
+	color: white;
+	background-image:url(../images/image1.jpg); 
+	background-size: cover; background-position: fixed;
+}
+
+	.form1{
+		margin-top: 90px;
+		margin-bottom: 50px;
+		background-color: black;
+		opacity: 0.7;
+	}
+	.form2{
+		text-align: center;
+		font-weight: bold;
+	}
+
+	.btn{
+		background:rgb(119 84 201) ;
+		border:none;
+		border-radius: 10px;
+		box-shadow: 0 2px ;
+	}
+
+	.essai{
+		background: inherit;
+		border: none;
+		color: aqua;
+		padding-bottom: 0px;
+		padding-top: -20px;
+	}
+	
+	#pp{
+		height: 120px; 
+		width: 120px; 
+	}
+
+	/*.......................*/
+	input:invalid+span:after {
+	  content: '✖';
+	  color: red;
+	  font-size: 12px;
+	}
+
+	
+	input:valid+span:after{
+	  content: '✓';
+	  color: rgb(0, 255, 0);
+	  font-weight: bolder;
+	  font-size: 12px;
+	}
+
+
+	/*............*/
+.Navigation{
+		background-color: inherit;
+		border-top: inherit;
+		border-right: inherit;
+		border-left: inherit;
+		border-bottom: 1px solid rgb(139 139 139);
+	}
+
+.My{
+		color: white;
+		font-family: Arial Black;
+	}
+
+	.Formular{
+		color: aqua;
+		font-family: Yu Gothic UI Semibold;
+	}	
+	
+.Menu li a{
+		color: white !important;
+	}
+
+	.Menu li a:hover{
+		color: aqua !important;
+		font-weight: bold;
+	}
+
+	@media only screen and (min-width: 993px){
+		.My{
+			margin-bottom: 10px;
+			font-size: 35px;
+		}
+
+		.Formular{
+			margin-bottom: 10px;
+			margin-left: 10px;
+			font-size: 35px;
+		}
+
+		.Menu{
+			font-size: 15px;
+			background-color: inherit;
+			position: relative;
+			bottom: 5px;
+		}
+
+		.Menu li a{
+			font-size: 20px;
+			padding-bottom: 20px;
+		}			

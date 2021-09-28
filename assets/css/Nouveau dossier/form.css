@@ -1,0 +1,38 @@
+.templatemo-login-form-2 {
+	background-color: rgba(13,13,13,0.25);
+	border-radius: 8px;
+	color: #fff;
+	font-weight: 300;
+	max-width: 650px;
+	padding: 0 30px 30px 30px;
+	margin: 30px auto 0 auto;
+
+}
+.templatemo-login-form-2 h1 { color: #fff; margin-bottom: 40px; }
+.templatemo-login-form-2 a { color: #DBDBDB; }
+.templatemo-login-form-2 .form-control {
+	background-color: rgba(83, 78, 78, 0.35);
+	border: 1px solid rgba(255, 255, 255, 0.27);
+	color: rgb(255,255,255);
+}
+.templatemo-login-form-2 .templatemo-input-icon-container .fa {	color: rgb(190, 190, 190); }
+.templatemo-login-form-2 .control-label { margin-bottom: 10px; }
+.templatemo-login-form-2 .btn {	width: 100%; }
+.templatemo-login-form-2 .btn-social { max-width: 220px; background-color:#153575;}
+.templatemo-login-form-2 label { font-weight: 400; }
+.templatemo-login-form-2 .templatemo-one-signin { border-right: 1px solid rgba(200, 200, 200, 0.5); }
+
+
+
+	.form1{
+		text-align: center;
+	}
+h1{
+	text-align: center;
+	color: orange;
+	font-family: sans-serif;
+}
+.templatemo-bg-image-1{
+	background-image: url(../images/templatemo-bg-1.jpg);
+}
+

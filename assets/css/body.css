@@ -1,0 +1,13 @@
+.information{
+	background-image: url('../images/masque1.jpg');
+	/*background-size: cover;*/
+	/*background-repeat: no-repeat;*/
+	background-blend-mode:  multiply;
+	width: 1349px;
+	height: 1076.75px;
+
+}
+.offres{
+	background-color:black;
+	opacity: 0.7;
+}

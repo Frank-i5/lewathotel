@@ -1,0 +1,28 @@
+.form0{
+	background-image: url(../images/image1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+.form2{
+	width: 60%;
+	background-color: black;
+	opacity: 0.7;
+	float: right;
+
+}
+.lab{
+	color: white;
+}
+.glyphicon{
+	color:  violet;
+}
+.titre{
+	text-align: center;
+	color: violet;
+}
+#im{
+	width: 25%;
+	height: 95px;
+	border-radius: 35px;
+}
